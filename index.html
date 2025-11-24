@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusVerse - One Character, Infinite Worlds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">NEXUSVERSE</div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="platform.html" class="nav-link">Platform</a>
+                <a href="for-players.html" class="nav-link">For Players</a>
+                <a href="for-developers.html" class="nav-link">For Developers</a>
+                <a href="business.html" class="nav-link">Business</a>
+                <a href="team.html" class="nav-link">Team</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">ONE CHARACTER, INFINITE WORLDS</h1>
+            <p class="hero-subtitle">Breaking the One-Week Game Lifecycle</p>
+            <p class="hero-description">
+                The first truly interconnected character-based gaming ecosystem that respects your time. 
+                Play episodic mobile adventures or dive into open-world roleplay on PC/Console - all with 
+                the same persistent character.
+            </p>
+            <div class="hero-buttons">
+                <a href="platform.html" class="btn btn-primary">Explore Platform</a>
+                <a href="business.html" class="btn btn-secondary">View Business Plan</a>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <canvas id="heroCanvas"></canvas>
+        </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">The Gaming Retention Crisis</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label">of players abandon games within 1 week</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">$50B+</div>
+                    <div class="stat-label">Asian mobile gaming market annually</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">15M+</div>
+                    <div class="stat-label">active roleplay gaming community</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">500K+</div>
+                    <div class="stat-label">indie developers seeking platforms</div>
+                </div>
+            </div>
+            <div class="problem-content">
+                <h3>Why Games Fail to Retain Players</h3>
+                <div class="problem-grid">
+                    <div class="problem-card">
+                        <div class="problem-icon">🔄</div>
+                        <h4>Update Anxiety</h4>
+                        <p>Long update cycles create overwhelming re-entry barriers for returning players</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="problem-icon">⏰</div>
+                        <h4>FOMO Mechanics</h4>
+                        <p>Daily logins and time-limited events create burnout instead of engagement</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="problem-icon">🚧</div>
+                        <h4>Development Barriers</h4>
+                        <p>High skill requirements exclude talented partial-skill creators</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="problem-icon">💔</div>
+                        <h4>Fragmented Experiences</h4>
+                        <p>No unified progression across game franchises wastes player investment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Overview -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">The NexusVerse Solution</h2>
+            <p class="section-subtitle">A unified gaming platform with persistent character IP across all experiences</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Episodic Mobile</h3>
+                    <p>15-30 minute self-contained story episodes. Play anytime, return after weeks with zero barriers.</p>
+                    <ul class="feature-list">
+                        <li>No daily missions</li>
+                        <li>No expiring content</li>
+                        <li>Clear episode numbering</li>
+                        <li>Independent storylines</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Open World PC/Console</h3>
+                    <p>GTA RP-inspired persistent worlds with community-created maps and scenarios.</p>
+                    <ul class="feature-list">
+                        <li>Custom developer worlds</li>
+                        <li>Roleplay freedom</li>
+                        <li>Multiple concurrent servers</li>
+                        <li>No progress loss</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔗</div>
+                    <h3>Cross-Platform Progression</h3>
+                    <p>Your character, cosmetics, and currency work everywhere. Play on mobile, continue on console.</p>
+                    <ul class="feature-list">
+                        <li>Unified character system</li>
+                        <li>Shared economy</li>
+                        <li>Cross-game items</li>
+                        <li>Platform flexibility</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🛠️</div>
+                    <h3>Developer Ecosystem</h3>
+                    <p>Accessible SDK with visual editors. Artists without coding and coders without art can create.</p>
+                    <ul class="feature-list">
+                        <li>No-code visual tools</li>
+                        <li>Asset libraries</li>
+                        <li>Revenue sharing</li>
+                        <li>Platform curation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Innovation -->
+    <section class="section section-highlight">
+        <div class="container">
+            <h2 class="section-title">What Makes Us Different</h2>
+            <div class="innovation-content">
+                <div class="innovation-text">
+                    <h3>The First True Multi-Game Character Universe</h3>
+                    <p>Unlike Roblox's user-generated chaos or Fortnite's single-universe limitation, NexusVerse combines:</p>
+                    <ul class="innovation-list">
+                        <li><strong>Professional Character IP</strong> - Maintained quality and consistency</li>
+                        <li><strong>Multiple Game Genres</strong> - From mobile episodes to open-world roleplay</li>
+                        <li><strong>Accessible Creation Tools</strong> - Lower barriers than competitors</li>
+                        <li><strong>No FOMO Design</strong> - Respect player time and lifestyle</li>
+                        <li><strong>Cross-Platform Native</strong> - Built for mobile, PC, and console from day one</li>
+                    </ul>
+                </div>
+                <div class="innovation-comparison">
+                    <h4>Competitive Advantage</h4>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>NexusVerse</th>
+                                <th>Roblox</th>
+                                <th>Fortnite</th>
+                                <th>GTA RP</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Unified IP</td>
+                                <td class="check">✓</td>
+                                <td class="cross">✗</td>
+                                <td class="check">Single IP</td>
+                                <td class="cross">✗</td>
+                            </tr>
+                            <tr>
+                                <td>Mobile + PC</td>
+                                <td class="check">✓</td>
+                                <td class="check">✓</td>
+                                <td class="check">✓</td>
+                                <td class="cross">✗</td>
+                            </tr>
+                            <tr>
+                                <td>Episodic</td>
+                                <td class="check">✓</td>
+                                <td class="cross">✗</td>
+                                <td class="cross">✗</td>
+                                <td class="cross">✗</td>
+                            </tr>
+                            <tr>
+                                <td>Cross-Game Progress</td>
+                                <td class="check">✓</td>
+                                <td class="partial">Limited</td>
+                                <td class="cross">✗</td>
+                                <td class="cross">✗</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Showcase -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Experience the Platform</h2>
+            <div class="showcase-grid">
+                <div class="showcase-card">
+                    <canvas id="showcase1" width="600" height="400"></canvas>
+                    <h3>Multi-Platform Character Hub</h3>
+                    <p>One character seamlessly transitions across all platforms</p>
+                </div>
+                <div class="showcase-card">
+                    <canvas id="showcase2" width="600" height="400"></canvas>
+                    <h3>Episodic Mobile Experience</h3>
+                    <p>Self-contained episodes with no pressure to play daily</p>
+                </div>
+                <div class="showcase-card">
+                    <canvas id="showcase3" width="600" height="400"></canvas>
+                    <h3>Open World Roleplay</h3>
+                    <p>Expansive worlds created by developers and community</p>
+                </div>
+                <div class="showcase-card">
+                    <canvas id="showcase4" width="600" height="400"></canvas>
+                    <h3>Accessible SDK</h3>
+                    <p>Visual tools that empower everyone to create</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Opportunity -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Massive Market Opportunity</h2>
+            <div class="market-grid">
+                <div class="market-card">
+                    <h3>Target Markets</h3>
+                    <div class="market-segment">
+                        <h4>Mobile Casual Gamers</h4>
+                        <p><strong>8-10M</strong> in HK/TW/SG</p>
+                        <p>Age 16-45, urban workers seeking engaging games without daily commitment</p>
+                    </div>
+                    <div class="market-segment">
+                        <h4>Console/PC Gamers</h4>
+                        <p><strong>3-4M</strong> potential users</p>
+                        <p>Age 18-45, roleplay enthusiasts wanting creative freedom</p>
+                    </div>
+                    <div class="market-segment">
+                        <h4>Indie Developers</h4>
+                        <p><strong>50K+</strong> global market</p>
+                        <p>Creators with partial skills seeking accessible platforms</p>
+                    </div>
+                </div>
+
+                <div class="market-card">
+                    <h3>Revenue Projections</h3>
+                    <div class="revenue-chart">
+                        <div class="revenue-bar" style="height: 10%;">
+                            <span class="revenue-label">Year 1<br>$50K</span>
+                        </div>
+                        <div class="revenue-bar" style="height: 20%;">
+                            <span class="revenue-label">Year 2<br>$200K</span>
+                        </div>
+                        <div class="revenue-bar" style="height: 40%;">
+                            <span class="revenue-label">Year 3<br>$400K</span>
+                        </div>
+                        <div class="revenue-bar" style="height: 70%;">
+                            <span class="revenue-label">Year 4<br>$1M</span>
+                        </div>
+                        <div class="revenue-bar" style="height: 100%;">
+                            <span class="revenue-label">Year 5<br>$1M+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2>Join the Gaming Revolution</h2>
+            <p>Be part of the platform that's redefining character-based gaming</p>
+            <div class="cta-buttons">
+                <a href="business.html" class="btn btn-large btn-primary">View Investment Opportunity</a>
+                <a href="contact.html" class="btn btn-large btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NexusVerse</h4>
+                    <p>"One Character, Infinite Worlds"</p>
+                    <p>Breaking the one-week game lifecycle</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Platform</h4>
+                    <a href="platform.html">Overview</a>
+                    <a href="for-players.html">For Players</a>
+                    <a href="for-developers.html">For Developers</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <a href="business.html">Business Plan</a>
+                    <a href="team.html">Team</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Seeking HKD 200K initial investment</p>
+                    <p>18-month development runway</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NexusVerse Interactive Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="animations.js"></script>
+</body>
+</html>
